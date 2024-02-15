@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Romaisa - Portfolio</title>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Romaisa's Portfolio</div>
+
+      <div class="right">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Skills">Skills</a></li>
+        </ul>
+
+      </div>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="dropdown_menu open">
+
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Skills">Skills</a></li>
+
+      </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="Home" class="firstSection">
+      <div class="leftSection">
+        <div>Hi I am <span class="purple">Romaisa!</span></div>
+        <span id="element"></span>
+        <br>
+        <button class="ContactMe" onclick="composeGmail()">Contact Me</button>
+        <a href="Romaisa_Resume_final.pdf" download>
+          <button class="download-button">My Resume</button>
+        </a>
+      </div>
+      <div class="rightSection">
+        <img src="bg.png" alt="PortfolioImage">
+      </div>
+    </section>
+    <hr>
+
+    <section id="About" class="secondSection">
+      <div class="aboutme">
+        <h2>About Me</h2>
+        <p>
+          I'm Romaisa, currently in my third year of studying Computer Engineering. My journey in the tech world has
+          been fueled by a fascination for creating seamless digital experiences.
+          I specialize in front-end development, where I love bringing creative concepts to life through visually
+          appealing and functional websites. UI/UX design is a particular passion, as I strive to create interfaces that
+          are both aesthetically pleasing and user-friendly.
+          Beyond web development, I'm deeply intrigued by the possibilities in artificial intelligence and machine
+          learning. I'm enthusiastic about learning and applying new concepts to solve real-world problems. </p>
+      </div>
+    </section>
+
+    <hr>
+    <section id="Services" class="thirdsection">
+      <div class="Whatido">
+        <h2>What I DO</h2>
+      </div>
+      <div class="box">
+        <h3>Web Development</h3>
+        <p>Creating responsive and user-friendly websites with the latest technologies.</p>
+      </div>
+
+      <div class="box">
+        <h3>UI/UX Design</h3>
+        <p>Designing intuitive and visually appealing user interfaces for a seamless experience.</p>
+      </div>
+
+      <div class="box">
+        <h3>AI & ML Enthusiast</h3>
+        <p>Exploring the realms of AI and ML to solve real-world problems.</p>
+      </div>
+    </section>
+
+    <hr>
+    <div class="Headings">
+      <h2>Projects</h2>
+    </div>
+    <section id="Projects" class="image-section">
+      <div class="row">
+        <div class="image-box">
+          <img src="tesla.png" alt="Image 1">
+          <div class="overlay">
+            <P class = "descrp">Tesla Website Clone</P>
+            <a href="https://github.com/Romaisa0157/tesla-website-clone" target="_blank"
+              class="github-button">Visit GitHub</a>
+          </div>
+        </div>
+
+        <div class="image-box">
+          <img src="p2.png" alt="Image 2">
+          <div class="overlay">
+            <P class = "descrp">Multi Functional Robot</P>
+            <a href="https://github.com/Romaisa0157/RemoteControl_LightFollowingRobot" target="_blank"
+              class="github-button">Visit GitHub</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="image-box">
+          <img src="p1.png" alt="Image 3">
+          <div class="overlay">
+            <P class = "descrp">ResolveHub Website</P>
+            <a href="https://github.com/Romaisa0157/Romaisa0157.github.io" target="_blank"
+              class="github-button">Visit GitHub</a>
+          </div>
+        </div>
+
+        <div class="image-box">
+          <img src="p2.jpg" alt="Image 4">
+          <div class="overlay">
+            <P class = "descrp">University Network Infrastructure</P>
+            <a href="https://github.com/Romaisa0157/UNI" target="_blank"
+              class="github-button">Visit GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    <div class="Headings">
+      <h2>My Skills</h2>
+      <div id="Skills" class="skills-container">
+        <section class="skills-section">
+
+          <div class="skill">
+            <img class="icon" src="html-icon.png" alt="HTML Icon">
+            <span class="skill-text">HTML</span>
+            <p> aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident</p>
+          </div>
+
+          <div class="skill">
+            <img class="icon" src="css-icon.png" alt="CSS Icon">
+            <span class="skill-text">CSS</span>
+            <p> aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident</p>
+          </div>
+
+          <div class="skill">
+            <img class="icon" src="js-icon.png" alt="JavaScript Icon">
+            <span class="skill-text">JavaScript</span>
+            <p> aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident</p>
+
+          </div>
+
+          <div class="skill">
+            <img class="icon" src="figma-icon.png" alt="UI Design Icon">
+            <span class="skill-text">UI/UX</span>
+            <p> aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident</p>
+
+          </div>
+        </section>
+      </div>
+      <h2 id="contactHeading">Contact Me</h2>
+      <div class="ContactMeSection">
+        <div class="container">
+          <div class="content">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">Romaisa</div>
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+92 3348709801</div>
+                <div class="text-two">+92 3028339010</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">romaisa0157@gmail.com</div>
+                <div class="text-two">u2021538@giki.edu.pk</div>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send Me a message</div>
+              <form action="#">
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="input-box message-box">
+                  <input type="text" placeholder="Message">
+                </div>
+                <div class="button">
+                  <input type="button" value="Send Now">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Computer Engineer', 'Web Developer', 'Video Editor'],
+      smartBackspace: true,
+      backSpeed: 30,
+      typeSpeed: 60,
+      loop: true,
+      loopCount: Infinity,
+
+    });
+
+  </script>
+</body>
+
+</html>
